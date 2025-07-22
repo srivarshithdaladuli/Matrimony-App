@@ -1,0 +1,48 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.hero-bg {
+    background-image: url('https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?q=80&w=2070&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+}
+
+.form-step {
+    display: none;
+}
+
+.form-step.active {
+    display: block;
+}
+
+.chat-message {
+    margin-bottom: 1rem;
+}
+
+.chat-message.received {
+    text-align: left;
+}
+
+.chat-message.sent {
+    text-align: right;
+}
+
+.chat-message p {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    max-width: 70%;
+}
+
+.chat-message.received p {
+    background-color: #f1f0f0;
+}
+
+.chat-message.sent p {
+    background-color: #fce7f3;
+}
+
+.chat-message span {
+    display: block;
+}
